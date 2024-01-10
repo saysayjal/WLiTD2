@@ -1,0 +1,41 @@
+* {
+    font-family: "Nunito", sans-serif;
+  }
+  input[type="text"] {
+    border: 2px solid green;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 10px 24px;
+  }
+  
+  input[type="text"]:focus {
+    border: 3px solid pink;
+  }
+  
+  .buttoncss {
+    background-color: #f4c2c2;
+    font-size: 18px;
+    padding: 10px 24px;
+    border-radius: 9px;
+  }
+  
+  body {
+    background-image: url("https:source.unsplash.com/bokeh-photography-62vi3TG5EDg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .container {
+    width: 40%;
+    margin: auto;
+    align-self: center;
+    opacity: 0.5;
+    background-color: #dda8a8;
+    border-radius: 12px;
+    padding: 100px;
+  }
+  
